@@ -1,0 +1,40 @@
+Variables :
+int x; // declaration
+x=10 ; // assignment
+int y=6 ;
+std :: cout << x ;
+std  :: cout << y ;
+int sum = x+y;
+cout << sum ;
+return 0;
+
+
+Const :  Variables value is constant it is read only 
+
+const double pi; # provides data security 
+pi = 3.149 ;
+double radius =19 ;
+double circumference = 2*pi*radius ;
+std :: cout << circumference ;
+
+
+# Namespaces :
+namespace first{
+
+int x=0 ;
+
+}
+namespace second{
+    int x=2;
+}
+
+int main (){
+using namsepace std;
+cout << "Helo" << name;
+    using namespace first ;
+    std::cout << x;
+    int x=0;
+  std::cout << first::x;
+  std::cout <<second::x;
+  return 0;
+}
